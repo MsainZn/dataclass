@@ -67,4 +67,10 @@ class Person:
 
 ---
 
-You're covering some pretty advanced stuff — let me know if you want to dive into validation, inheritance, or converting dataclasses to JSON next!
+kw_only=True — Enforces keyword-only arguments
+Forces all fields to be passed as keyword arguments, not positional.
+Makes your constructor more readable and less error-prone.
+
+init=True/False — Control if a field is in __init__
+init=True (default): Included in the constructor (__init__)
+init=False: Not passed in — you’ll usually set it later or inside __post_init__
