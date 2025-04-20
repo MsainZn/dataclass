@@ -1,4 +1,4 @@
-Absolutely — here's a clean summary of everything you've explored and learned about `dataclasses`, especially around **mutable defaults**, **frozen classes**, **slots**, and **post-init logic**:
+Learn about `dataclasses`, especially around **mutable defaults**, **frozen classes**, **slots**, and **post-init logic**:
 
 ---
 
